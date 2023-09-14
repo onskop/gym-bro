@@ -37,7 +37,6 @@ if st.sidebar.checkbox('Show dataframe'):
     if st.sidebar.checkbox('Show chart'):
         st.line_chart(df2)
 
-
 # text field for input
 user_input = st.text_input("Napiš prompt", "Ale tenhle prompt teď stejně nic nedělá")
 st.write('Napsal jsi: ', user_input)
