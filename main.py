@@ -1,3 +1,8 @@
 import streamlit as st
+import os
 
-st.write("Hello planet!")
+with os.open("novejfile.txt", "r") as f:
+    data = f.read()
+
+
+st.write(data)
